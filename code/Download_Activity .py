@@ -46,7 +46,7 @@ config = SteamMapConfig()
 # ======================
 # 1. Read standardized data
 # ======================
-print(" Loading data...")
+print("Loading data...")
 
 cities = pd.read_csv("cities_iso3.csv")
 traffic = pd.read_csv("traffic_iso3.csv")
@@ -55,8 +55,8 @@ traffic = pd.read_csv("traffic_iso3.csv")
 traffic = traffic[(traffic["iso3"].notna()) & (traffic["country"] != "Unknown")]
 cities = cities[cities["iso3"].notna()]
 
-print(f"✓ City data: {len(cities)} rows")
-print(f"✓ Traffic data: {len(traffic)} rows")
+print(f"City data: {len(cities)} rows")
+print(f"Traffic data: {len(traffic)} rows")
 
 # Ensure key fields are numeric
 traffic["value"] = pd.to_numeric(traffic["value"], errors="coerce")
@@ -65,7 +65,7 @@ cities["population"] = pd.to_numeric(cities["population"], errors="coerce")
 # ======================
 # 2. Unify units to TB
 # ======================
-print(" Unifying traffic units...")
+print("Unifying traffic units...")
 
 unit_to_tb = {
     "TB": 1,
@@ -83,8 +83,8 @@ traffic = traffic[traffic["traffic_tb"].notna()]
 # Aggregate by country
 traffic_iso = traffic.groupby("iso3", as_index=False)["traffic_tb"].sum()
 
-print(f"✓ Number of countries after aggregation: {len(traffic_iso)}")
-print(f"✓ Total traffic: {traffic_iso['traffic_tb'].sum():.2f} TB")
+print(f"Number of countries after aggregation: {len(traffic_iso)}")
+print(f"Total traffic: {traffic_iso['traffic_tb'].sum():.2f} TB")
 
 # ======================
 # 3. Distribute to cities by population
@@ -101,7 +101,7 @@ cities = cities[
 
 merged = cities.merge(traffic_iso, on="iso3", how="inner")
 
-print(f"✓ Number of cities after merge: {len(merged)}")
+print(f"Number of cities after merge: {len(merged)}")
 
 # Calculate city weights
 merged["country_pop"] = merged.groupby("iso3")["population"].transform("sum")
@@ -136,7 +136,7 @@ merged.loc[(merged["num_points"] == 0) & (merged["city_traffic_log"] > 0), "num_
 merged["num_points"] = merged["num_points"].clip(upper=config.MAX_POINTS_PER_CITY)
 
 total_points_est = int(merged["num_points"].sum())
-print(f"✓ Estimated total points: {total_points_est:,}")
+print(f"Estimated total points: {total_points_est:,}")
 
 # ======================
 # 5. Generate three-layer point cloud (core algorithm)
@@ -185,9 +185,9 @@ points = pd.DataFrame({"lat": lats, "lon": lons})
 # Downsampling (if too many points)
 if len(points) > config.MAX_TOTAL_POINTS:
     points = points.sample(config.MAX_TOTAL_POINTS, random_state=42).reset_index(drop=True)
-    print(f"Downsampled to: {len(points):,} points")
+    print(f"Warning: Downsampled to: {len(points):,} points")
 else:
-    print(f"✓ Final number of points: {len(points):,}")
+    print(f"Final number of points: {len(points):,}")
 
 # ======================
 # 6. Load world map
@@ -197,10 +197,10 @@ print("Loading world map...")
 try:
     world_path = geodatasets.get_path("naturalearth.land")
     world = gpd.read_file(world_path)
-    print("✓ Map loaded successfully")
+    print("Map loaded successfully")
 except Exception as e:
-    print(f"❌ Map loading failed: {e}")
-    print("💡 Please install: pip install geodatasets")
+    print(f"Map loading failed: {e}")
+    print("Please install: pip install geodatasets")
     raise
 
 # ======================
@@ -233,7 +233,7 @@ ax.scatter(
 
 # Glow enhancement layer (optional, makes bright areas brighter)
 if config.ENABLE_GLOW_LAYER and len(points) > 1000:
-    print(" Adding glow layer...")
+    print("Adding glow layer...")
     glow_points = points.sample(
         frac=config.GLOW_SAMPLE_RATIO,
         random_state=43
@@ -274,7 +274,7 @@ plt.tight_layout()
 # ======================
 # 8. Save high-resolution image
 # ======================
-output_file = "steam_official_style_map.png"
+output_file = "steam_active_map.png"
 
 plt.savefig(
     output_file,
