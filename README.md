@@ -54,6 +54,9 @@ Full implementation details are available in the Python scripts.
 To reproduce the main figure:
 
 ```bash
-python code/generate_figure.py
+python code/Download_Activity.py      # Generates global download activity map
+python code/Download_Speed.py         # Generates country-level download speed choropleth
+python code/Download_Bandwidth.py     # Generates regional bandwidth time-series chart
+
 ```
-The script generates the integrated figure in the figures/ directory.
+The script generates the integrated figure in the figures/ .
