@@ -1,0 +1,234 @@
+country,value,unit,iso3
+Afghanistan,13.0,TB,AFG
+Angola,54.1,TB,AGO
+Albania,687.0,TB,ALB
+United Arab Emirates,3.7,PB,ARE
+Argentina,20.6,PB,ARG
+Armenia,571.8,TB,ARM
+Antarctica,107.2,GB,ATA
+French Southern Territories,0.0,B,ATF
+Australia,30.8,PB,AUS
+Austria,9.0,PB,AUT
+Azerbaijan,853.5,TB,AZE
+Burundi,1.1,TB,BDI
+Belgium,8.8,PB,BEL
+Benin,18.0,TB,BEN
+Burkina Faso,23.2,TB,BFA
+Bangladesh,1.2,PB,BGD
+Bulgaria,2.9,PB,BGR
+Bahamas,84.9,TB,BHS
+Bosnia and Herzegovina,809.4,TB,BIH
+Belarus,6.0,PB,BLR
+Belize,44.7,TB,BLZ
+Bolivia,966.6,TB,BOL
+Brazil,102.2,PB,BRA
+Brunei,235.5,TB,BRN
+Bhutan,11.4,TB,BTN
+Botswana,41.3,TB,BWA
+Central African Republic,108.3,GB,CAF
+Canada,50.6,PB,CAN
+Switzerland,7.5,PB,CHE
+Chile,13.0,PB,CHL
+China,368.1,PB,CHN
+Côte d'Ivoire,120.6,TB,CIV
+Cameroon,29.6,TB,CMR
+Democratic Republic of the Congo,41.7,TB,COD
+Republic of the Congo,13.4,TB,COG
+Colombia,8.3,PB,COL
+Costa Rica,1.6,PB,CRI
+Cuba,0.0,B,CUB
+Northern Cyprus,0.0,B,CYP
+Cyprus,679.5,TB,CYP
+Czech Republic,10.9,PB,CZE
+Germany,85.1,PB,DEU
+Djibouti,6.0,TB,DJI
+Denmark,8.2,PB,DNK
+Dominican Republic,1.3,PB,DOM
+Algeria,1.8,PB,DZA
+Ecuador,2.2,PB,ECU
+Egypt,1.2,PB,EGY
+Eritrea,60.3,GB,ERI
+Spain,27.3,PB,ESP
+Estonia,1.9,PB,EST
+Ethiopia,38.9,TB,ETH
+Finland,8.1,PB,FIN
+Fiji,14.1,TB,FJI
+Falkland Islands,619.5,GB,FLK
+Faroe Islands,55.1,TB,FRO
+France,52.6,PB,FRA
+French Guiana,61.5,TB,GUF
+Gabon,34.1,TB,GAB
+United Kingdom,58.0,PB,GBR
+Georgia,1.4,PB,GEO
+Ghana,105.6,TB,GHA
+Guinea,9.9,TB,GIN
+Gambia,2.0,TB,GMB
+Guinea-Bissau,664.1,GB,GNB
+Equatorial Guinea,1.7,TB,GNQ
+Greece,4.4,PB,GRC
+Greenland,43.3,TB,GRL
+Guatemala,770.9,TB,GTM
+Guyana,81.6,TB,GUY
+Honduras,477.4,TB,HND
+Croatia,2.0,PB,HRV
+Haiti,8.7,TB,HTI
+Hungary,7.3,PB,HUN
+Indonesia,12.7,PB,IDN
+India,14.7,PB,IND
+Ireland,3.5,PB,IRL
+Iran,0.0,B,IRN
+Iraq,2.7,PB,IRQ
+Iceland,647.6,TB,ISL
+Israel,4.0,PB,ISR
+Italy,15.2,PB,ITA
+Jamaica,236.1,TB,JAM
+Jordan,1.3,PB,JOR
+Japan,32.6,PB,JPN
+Kazakhstan,7.9,PB,KAZ
+Kenya,255.4,TB,KEN
+Kyrgyzstan,836.9,TB,KGZ
+Cambodia,764.3,TB,KHM
+South Korea,37.7,PB,KOR
+Unknown,0.0,B,
+Kuwait,1.7,PB,KWT
+Laos,167.9,TB,LAO
+Lebanon,552.5,TB,LBN
+Liberia,3.8,TB,LBR
+Libya,209.2,TB,LBY
+Sri Lanka,489.5,TB,LKA
+Lesotho,4.4,TB,LSO
+Lithuania,3.2,PB,LTU
+Luxembourg,533.3,TB,LUX
+Latvia,2.2,PB,LVA
+Morocco,1.8,PB,MAR
+Moldova,1.4,PB,MDA
+Madagascar,80.3,TB,MDG
+Mexico,18.7,PB,MEX
+North Macedonia,557.4,TB,MKD
+Mali,10.6,TB,MLI
+Myanmar,0.0,B,MMR
+Montenegro,272.3,TB,MNE
+Mongolia,936.7,TB,MNG
+Mozambique,56.3,TB,MOZ
+Mauritania,10.9,TB,MRT
+Malawi,13.1,TB,MWI
+Malaysia,9.8,PB,MYS
+Singapore,5.5,PB,SGP
+Hong Kong,10.0,PB,HKG
+Namibia,83.4,TB,NAM
+New Caledonia,73.2,TB,NCL
+Niger,6.3,TB,NGA
+Nigeria,184.3,TB,NGA
+Nicaragua,229.4,TB,NIC
+Netherlands,15.6,PB,NLD
+Norway,7.9,PB,NOR
+Nepal,405.6,TB,NPL
+New Zealand,5.0,PB,NZL
+Oman,521.7,TB,OMN
+Pakistan,1.2,PB,PAK
+Panama,653.8,TB,PAN
+Peru,7.8,PB,PER
+Philippines,16.2,PB,PHL
+Papua New Guinea,3.3,TB,PNG
+Poland,38.4,PB,POL
+Puerto Rico,1.5,PB,PRI
+North Korea,0.0,B,PRK
+Portugal,8.4,PB,PRT
+Paraguay,828.6,TB,PRY
+Qatar,842.1,TB,QAT
+Romania,9.3,PB,ROU
+Russia,137.8,PB,RUS
+Rwanda,16.7,TB,RWA
+Western Sahara,0.0,B,ESH
+Saudi Arabia,9.1,PB,SAU
+Sudan,0.0,B,SDN
+South Sudan,3.8,TB,SSD
+Senegal,77.7,TB,SEN
+Solomon Islands,2.3,TB,SLB
+Sierra Leone,4.2,TB,SLE
+El Salvador,551.9,TB,SLV
+Somaliland,0.0,B,SOM
+Somalia,16.5,TB,SOM
+Serbia,3.2,PB,SRB
+Suriname,29.9,TB,SUR
+Slovakia,3.7,PB,SVK
+Slovenia,1.4,PB,SVN
+Sweden,14.4,PB,SWE
+Eswatini,7.2,TB,SWZ
+Syria,0.0,B,SYR
+Chad,2.6,TB,TCD
+Togo,24.4,TB,TGO
+Thailand,22.5,PB,THA
+Tajikistan,141.2,TB,TJK
+Turkmenistan,28.3,TB,TKM
+Timor-Leste,0.0,B,TLS
+Trinidad and Tobago,346.2,TB,TTO
+Tunisia,682.0,TB,TUN
+Turkey,33.8,PB,TUR
+Taiwan,17.4,PB,TWN
+Tanzania,62.9,TB,TZA
+Uganda,40.7,TB,UGA
+Ukraine,25.9,PB,UKR
+Uruguay,1.9,PB,URY
+United States,412.3,PB,USA
+Uzbekistan,2.2,PB,UZB
+Venezuela,2.2,PB,VEN
+Vietnam,9.6,PB,VNM
+Vanuatu,3.3,TB,VUT
+Palestine,495.4,TB,PSE
+Yemen,14.0,TB,YEM
+South Africa,5.5,PB,ZAF
+Zambia,43.1,TB,ZMB
+津巴布韦,58.8,TB,ZWE
+Alaska,1.5,PB,USA
+Hawaii,1.6,PB,USA
+Alabama,4.8,PB,USA
+Arkansas,3.0,PB,USA
+Arizona,9.5,PB,USA
+California,47.2,PB,USA
+Colorado,10.9,PB,USA
+Connecticut,3.3,PB,USA
+District of Columbia,704.5,TB,USA
+Delaware,952.6,TB,USA
+Florida,25.7,PB,USA
+Georgia,13.5,PB,GEO
+Iowa,3.0,PB,USA
+Idaho,2.7,PB,USA
+Illinois,16.1,PB,USA
+Indiana,8.5,PB,USA
+Kansas,3.3,PB,USA
+Kentucky,5.1,PB,USA
+Louisiana,4.0,PB,USA
+Massachusetts,7.1,PB,USA
+Maryland,6.6,PB,LBR
+Maine,1.8,PB,USA
+Michigan,11.8,PB,USA
+Minnesota,7.8,PB,USA
+Missouri,9.4,PB,USA
+Mississippi,2.1,PB,USA
+Montana,1.3,PB,BGR
+North Carolina,13.2,PB,USA
+North Dakota,1.3,PB,USA
+Nebraska,2.6,PB,USA
+New Hampshire,2.1,PB,USA
+New Jersey,8.5,PB,USA
+New Mexico,2.0,PB,USA
+Nevada,4.7,PB,USA
+New York,22.8,PB,USA
+Ohio,14.5,PB,USA
+Oklahoma,4.8,PB,USA
+Oregon,7.3,PB,USA
+Pennsylvania,14.2,PB,USA
+Rhode Island,1.6,PB,USA
+South Carolina,5.2,PB,USA
+South Dakota,1.1,PB,USA
+Tennessee,8.6,PB,USA
+Texas,38.9,PB,USA
+Utah,6.6,PB,USA
+Virginia,13.4,PB,USA
+Vermont,718.3,TB,USA
+Washington,14.9,PB,USA
+Wisconsin,7.5,PB,USA
+West Virginia,1.4,PB,USA
+Wyoming,602.9,TB,USA
+Virgin Islands of the United States,0.0,B,VIR
